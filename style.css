@@ -13,9 +13,6 @@ body {
 
 }
 .fisrt-view-container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -38,8 +35,7 @@ body {
 }
 
 .radio-inp {
-  /* padding: 2rem; */
-  /* margin-top: 1rem; */
+
   margin-bottom: 1rem;
   
 
@@ -119,7 +115,7 @@ body {
   }
   
   body {
-   /* margin: 2rem auto; */
+   
    display: flex;
    justify-content: center;
    align-items: center;
@@ -156,8 +152,6 @@ body {
   }
   
   .radio-inp {
-    /* padding: 2rem; */
-    /* margin-top: 1rem; */
     margin-bottom: 1rem;
     
   
@@ -167,9 +161,7 @@ body {
     margin-top: 3rem;
   }
   
-  /* .email-label {
-    margin-top: 2rem;
-  } */
+  
   .email-inp {
     padding: 0.7rem;
     margin-bottom: 1rem;
@@ -177,7 +169,7 @@ body {
     width: 100%;
     color: hsl(231, 7%, 60%);
     border: 1px solid hsl(231, 7%, 60%);
-    /* background: red; */
+    
   }
   
   .submit-btn, .dismiss-btn {
@@ -194,7 +186,7 @@ body {
   
   
   .error {
-    /* display: none; */
+    
     color: red;
     margin-left: 6rem;
   }
